@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap" rel="stylesheet">
 
         <!-- Favicon -->
-        <link rel="icon" href="raw/Vector.png" type="image/x-icon" />
+        <link rel="icon" href="raw/favicon.png" type="image/x-icon" />
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css" />
@@ -29,20 +29,20 @@
                         <a href="#home">Home</a>
                     </li>
                     <li>
-                        <a href="#whyus?">Why Us?</a>
+                        <a href="#section-group-why">Why Us?</a>
                     </li>
                     <li>
-                        <a href="#caffein">Caffein</a>
+                        <a href="#section-group-caffein">Caffein</a>
                     </li>
                     <li>
-                        <a href="#article">Article</a>
+                        <a href="#section-group-article">Article</a>
                     </li>
                 </ul>
                 <button class="contact">Contact Us</button>
             </nav>
         </header>
         <main>
-            <div class="section-group-home">
+            <div id="section-group-home">
                 <section id="home" class="home">
                     <div class="container">
                         <div class="col-hero">
@@ -51,10 +51,12 @@
                             </div>
                             <div class="row-hero">
                                 <div class="row-hero-title">
-                                    <h2>Helps fulfill your Caffeine needs!!</h2>     
+                                    <h1>Helps fulfill your Caffeine needs!!</h2>     
                                 </div>
                                 <div class="row-hero-description">
-                                    <h4>red beans. roasted beans. grounded coffee beans.<br>Caffeina can provide all of those things right to you.<br>Just let we know what your need ^^</h4>
+                                    <p>
+                                        red beans. roasted beans. grounded coffee beans. Caffeina can provide all of those things right to you. Just let we know what your need ^^
+                                    </p>
                                 </div>
                                 <div>
                                     <button class="contact">Contact Us</button>                              
@@ -64,51 +66,221 @@
                     </div>
                 </section>
             </div>
-            <section class="section-group-why">
-                <div class="container-why">
-                    <div class="row-why">
-                        <div><h1>why choose caffeine</h1></div>
-                        <div><h4>We take pride in being your go-to</h4></div>
-                        <div><img></div>
-                        <div><h4>Our Red</h4></div>
-                        <div><img></div>
-                        <div><h4>Our Roasted Beans</h4></div>
-                        <div><img></div>
-                        <div><h4>Our grounded coffee </h4></div>
+            <section id="section-group-why">
+                <div class="container why">
+                    <div class="col-why">
+                        <div class="row-why">
+                            <article class="row-why-titledescription">
+                                <h1 style="margin-bottom: 30px;">Why Choose Caffeina?</h1>
+                                <p>We take pride in being your go-to destination for all things caffeine, offering a curated selection of premium coffee beans, freshly roasted blends, and finely ground coffee beans. What sets us apart is our commitment to delivering not just coffee, but an exceptional journey for coffee enthusiasts. With a focus on quality, sustainability, and a diverse range of flavors, we ensure that every sip is a moment of pure delight. Choose us for your daily dose of coffee satisfaction, and elevate your brewing experience to new heights.</p>
+                            </article>
+                            <div class="row-why-icon" style="background-color: #F60; width: fit-content; padding: 15px; border-radius: 15px; margin-top: 24px; margin-bottom: 24px;">
+                                <img src="raw/redbeans.png" alt="redbeans-icon" style="max-width: 60px; height: auto;" >
+                            </div>
+                            <article class="row-why-coffee">
+                                <p>
+                                    Our Red beans are picked up from the lush and fertile landscapes of Indonesia, renowned for producing some of the world's finest coffee. Nestled amidst volcanic terrains and sun-kissed plantations, our beans are cultivated with utmost care and precision
+                                </p>
+                            </article>
+                            <div class="row-why-icon" style="background-color: #F60; width: fit-content; padding: 15px; border-radius: 15px; margin-top: 24px; margin-bottom: 24px;">
+                                <img src="raw/roasted.png" alt="roasted-icon" style="max-width: 60px; height: auto;">
+                            </div>
+                            <article class="row-why-coffee">
+                                <p>
+                                    Our Roasted Beans, meticulously crafted to perfection, embody the essence of a truly exceptional coffee experience.              
+                                </p>
+                            </article>
+                            <div class="row-why-icon-coffee" style="background-color: #F60; width: fit-content; padding: 15px; border-radius: 15px; margin-top: 24px; margin-bottom: 24px;">
+                                <img src="raw/grounded.png" alt="grounded-icon" style="max-width: 60px; height: auto;">
+                            </div>
+                            <article>
+                                <p>
+                                    Our grounded coffee is a testament to the artistry of coffee-making, meticulously crafted to deliver a symphony of flavors in every sip.
+                                </p>
+                            </article>
+                        </div>
                     </div>
-                    <aside class="row-why-aside">
-                        <div><img src="" alt=""></div>
-                        <div><h2>Feeling lost choose</h2></div>
-                        <div><h5>Dont worry we got your back</h5></div>
+                    <aside class="col-why-aside">
+                        <div class="row-why-aside-img" >
+                            <img src="raw/aside-img.png" alt="aside-img" style="width: 100%; height: 100%; border-radius: 9px" />
+                        </div>
+                        <article>
+                            <h2 style="margin-top: 10px; margin-bottom: 10px;">
+                                Feeling lost choose the perfect coffee?
+                            </h2>
+                            <p style="text-align: justify;">
+                                Dont worry we got your back, let us guide you through a sensory journey, helping you discover the perfect brew that suits your taste buds and preferences. With a carefully curated selection of premium coffee beans, roasted blends, and finely ground options, we turn uncertainty into confidence. Embrace the aroma, explore the flavors, and embark on a coffee adventure that leaves you sure, satisfied, and ready to make your purchase with us. Your perfect cup awaits—let's brew it together!
+                            </p>
+                        </article>
                     </aside>
                 </div>
             </section>
-            <section class="section-group-caffein">
-                <div class="container-caffein">
-                    <div>
+            <section id="section-group-caffein">
+                <div class="container caffein">
+                    <div class="row-caffein">
                         <h1>
-                            Caffein
+                            Caffein —
                         </h1>
-                    <div>
-
+                        <h4 style="font-weight: 300;">
+                            Our best product for you!
+                        </h4>
+                    </div>
+                    <div class="row-item">
+                        <div class="card-item">
+                            <img src="raw/card-image.png" alt="image-card" style="width: 100%; height: auto;" >
+                            <h4>Coffee Beans</h4>
+                            <h5>From Toraja</h5>
+                            <h4>Rp. 100.000,- / 200g</h4>
+                        </div>
+                        <div class="card-item">
+                            <img src="raw/card-image.png" alt="image-card" style="width: 100%; height: auto;" >
+                            <h4>Coffee Beans</h4>
+                            <h5>From Toraja</h5>
+                            <h4>Rp. 100.000,- / 200g</h4>
+                        </div>
+                        <div class="card-item">
+                            <img src="raw/card-image.png" alt="image-card" style="width: 100%; height: auto;" >
+                            <h4>Coffee Beans</h4>
+                            <h5>From Toraja</h5>
+                            <h4>Rp. 100.000,- / 200g</h4>
+                        </div>
+                        <div class="card-item">
+                            <img src="raw/card-image.png" alt="image-card" style="width: 100%; height: auto;" >
+                            <h4>Coffee Beans</h4>
+                            <h5>From Toraja</h5>
+                            <h4>Rp. 100.000,- / 200g</h4>
+                        </div>
+                        <div class="card-item">
+                            <img src="raw/card-image.png" alt="image-card" style="width: 100%; height: auto;" >
+                            <h4>Coffee Beans</h4>
+                            <h5>From Toraja</h5>
+                            <h4>Rp. 100.000,- / 200g</h4>
+                        </div>
+                        <div class="card-item">
+                            <img src="raw/card-image.png" alt="image-card" style="width: 100%; height: auto;" >
+                            <h4>Coffee Beans</h4>
+                            <h5>From Toraja</h5>
+                            <h4>Rp. 100.000,- / 200g</h4>
+                        </div>
+                        <div class="card-item">
+                            <img src="raw/card-image.png" alt="image-card" style="width: 100%; height: auto;" >
+                            <h4>Coffee Beans</h4>
+                            <h5>From Toraja</h5>
+                            <h4>Rp. 100.000,- / 200g</h4>
+                        </div>
+                        <div class="card-item">
+                            <img src="raw/card-image.png" alt="image-card" style="width: 100%; height: auto;" >
+                            <h4>Coffee Beans</h4>
+                            <h5>From Toraja</h5>
+                            <h4>Rp. 100.000,- / 200g</h4>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="section-group-article">
-                <div class="container-article">
-                    <div>
+            <section id="section-group-article">
+                <div class="container article">
+                    <div class="row-article">
                         <h1>
-                            Article
+                            Article —
                         </h1>
+                        <h4 style="font-weight: 300;">
+                            brewing tips for ya!
+                        </h4>
                     </div>
-                    <div>
-
+                    <div class="row-item">
+                        <div class="card-article">
+                            <div class="col-article-img">
+                                <img src="raw/article.png" alt="" class="article-img" >
+                            </div>
+                            <div class="col-article">
+                                <h4 >
+                                    <span>
+                                        <b>brewing</b>
+                                        <br>
+                                        How to extras coffee and get the flavory taste
+                                        <br>
+                                        <h5>
+                                            5 minutes read
+                                        </h5>
+                                    </span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="card-article">
+                            <div class="col-article-img">
+                                <img src="raw/article.png" alt="" class="article-img" >
+                            </div>
+                            <div class="col-article">
+                                <h4 >
+                                    <span>
+                                        <b>brewing</b>
+                                        <br>
+                                        How to extras coffee and get the flavory taste
+                                        <br>
+                                        <h5>
+                                            5 minutes read
+                                        </h5>
+                                    </span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="card-article">
+                            <div class="col-article-img">
+                                <img src="raw/article.png" alt="" class="article-img" >
+                            </div>
+                            <div class="col-article">
+                                <h4 >
+                                    <span>
+                                        <b>brewing</b>
+                                        <br>
+                                        How to extras coffee and get the flavory taste
+                                        <br>
+                                        <h5>
+                                            5 minutes read
+                                        </h5>
+                                    </span>
+                                </h4>
+                            </div>
+                        </div>
+                        <div class="card-article">
+                            <div class="col-article-img">
+                                <img src="raw/article.png" alt="" class="article-img" >
+                            </div>
+                            <div class="col-article">
+                                <h4 >
+                                    <span>
+                                        <b>brewing</b>
+                                        <br>
+                                        How to extras coffee and get the flavory taste
+                                        <br>
+                                        <h5>
+                                            5 minutes read
+                                        </h5>
+                                    </span>
+                                </h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </main>
         <footer>
-
+            <ul>
+                <li>
+                    <a href="#home" class="icon">
+                        <img src="raw/fixed-logo-rev 2.svg" alt="Icon">
+                    </a>
+                </li>
+                <li>
+                    <h5>made with 💖 zidantifanno</h5>
+                </li>
+                <li>
+                    <a href="#" class="container-ig">
+                        <img src="raw/logo-ig.svg" alt="">
+                         zidantf2no
+                    </a>
+                </li>
+            </ul>
         </footer>
     </body>
 </html>
