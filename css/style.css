@@ -39,6 +39,12 @@ h2 {
     word-wrap: break-word;
 }
 
+@media screen and (max-width: 615px) {
+    .container{
+        padding: 20px;
+    }
+}
+
 /*? nav */
 nav {
     width: 100%;
@@ -139,7 +145,7 @@ button.contact:hover {
 
 @media screen and (max-width: 915px) {
     .hero-img{
-        width: 100%;
+        width: auto;
         order: 1;
     }
     .row-hero{
@@ -151,6 +157,26 @@ button.contact:hover {
         flex-wrap: wrap;
     }
 }
+
+@media screen and (max-width: 615px) {
+    .hero-img{
+        width: auto;
+        max-height: 200px;
+        margin: 0 auto;
+        order: 1;
+    }
+    .col-hero {
+        margin: 32px 0 0 0;
+        flex-wrap: wrap;
+    }
+    .row-hero h1 {
+        font-size: 16px;
+    }
+    .row-hero p {
+        font-size: 12px;
+    }
+}
+
 
 
 /*? section group why */
@@ -177,6 +203,20 @@ button.contact:hover {
     font-size: 16px;
     font-weight: 300;
     text-align: justify;
+}
+
+.row-why-icon {
+    background-color: #F60; 
+    width: fit-content; 
+    padding: 15px; 
+    border-radius: 15px; 
+    margin-top: 24px; 
+    margin-bottom: 24px;
+}
+
+.beans-icon {
+    max-width: 60px;
+    height: 60px;
 }
 
 .col-why-aside {
@@ -207,6 +247,18 @@ button.contact:hover {
     }
 }
 
+@media screen and (max-width: 615px) {
+    .row-why-icon {
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .beans-icon {
+        max-width: 40px;
+        height: 40px;
+    }
+}
+
 /*? section group caffein */
 .row-caffein {
     margin-bottom: 32px;
@@ -228,6 +280,12 @@ button.contact:hover {
 @media screen and (max-width: 915px) {
     .card-item{
         width: 45%;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .card-item{
+        width: 100%;
     }
 }
 
@@ -279,7 +337,19 @@ button.contact:hover {
 }
 
 @media screen and (max-width: 615px) {
-
+    .col-article {
+        padding: 10px;
+    }
+    .col-article span {
+        font-size: 10px;
+        line-height: 2;
+    }
+    .col-article span h5 {
+        padding: 0 0 0 0;
+    }
+    .article-img {
+        max-width: 100px;
+    }
 }
 
 /*? footer */
@@ -312,3 +382,12 @@ footer ul {
     padding: 4px;
 }
 
+@media screen and (max-width: 615px) {
+    footer ul {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    footer li {
+        margin: 16px;
+    }
+}
